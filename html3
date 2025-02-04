@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cricket Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Cricket World!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Cricket</a></li>
+                <li><a href="#players">Top Players</a></li>
+                <li><a href="#matches">Upcoming Matches</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Cricket is not just a sport; it's a passion, a way of life! Whether you're a player, a fan, or just curious, this page is your gateway to the exciting world of cricket.</p>
+        <img src="cricket.jpg" alt="Cricket Image" width="100%">
+    </section>
+
+    <section id="about">
+        <h2>About Cricket</h2>
+        <p>Cricket is a bat-and-ball game played between two teams of 11 players each. It originated in England and is now popular worldwide, especially in countries like India, Australia, South Africa, and England.</p>
+        <p>The game is played in various formats, including:</p>
+        <ul>
+            <li><strong>Test Cricket</strong>: The traditional format played over 5 days.</li>
+            <li><strong>One Day Internationals (ODIs)</strong>: A 50-over format.</li>
+            <li><strong>T20 Internationals</strong>: A fast-paced 20-over format.</li>
+        </ul>
+    </section>
+
+    <section id="players">
+        <h2>Top Players</h2>
+        <p>Here are some of the greatest cricket players of all time:</p>
+        <div class="player">
+            <h3>Virat Kohli</h3>
+            <p>Known as the "Run Machine," Virat Kohli is one of the best batsmen in the world.</p>
+        </div>
+        <div class="player">
+            <h3>MS Dhoni</h3>
+            <p>Captain Cool! MS Dhoni is one of the most successful captains in cricket history.</p>
+        </div>
+        <div class="player">
+            <h3>AB de Villiers</h3>
+            <p>Mr. 360! AB de Villiers is known for his innovative and explosive batting.</p>
+        </div>
+    </section>
+
+    <section id="matches">
+        <h2>Upcoming Matches</h2>
+        <p>Don't miss these exciting matches:</p>
+        <ul>
+            <li>India vs Australia - T20 Series (October 2023)</li>
+            <li>England vs South Africa - Test Series (November 2023)</li>
+            <li>Pakistan vs New Zealand - ODI Series (December 2023)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Have questions or want to discuss cricket? Reach out to me!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Cricket Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
